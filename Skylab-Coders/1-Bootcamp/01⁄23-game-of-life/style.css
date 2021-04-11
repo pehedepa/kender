@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0;
+}
+.board {
+    width: 100vw;
+    height: 100vh;    
+}
+.board__container--flex {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+#board__table {
+    display:flex;
+    background-color: silver;
+}
+td {
+    font-size:0px;
+    border: 1px solid gray;
+    background-color: silver;
+    padding: 5px;
+}
+
+td:hover {
+    border: 1px solid black;
+}

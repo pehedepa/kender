@@ -1,0 +1,449 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a LoginView function When statusLogin is 401 Then the render should match its snaptshot 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Object {
+      "height": "100%",
+      "resizeMode": "contain",
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": "100%",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": "100%",
+        "justifyContent": "center",
+        "padding": 25,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "height": "100%",
+          "justifyContent": "center",
+          "width": "80%",
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 200,
+            "width": 200,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "marginVertical": 10,
+          }
+        }
+      />
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCompleteType="email"
+        maxLength={30}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "fontFamily": "MontserratMedium",
+            "marginBottom": 15,
+            "paddingHorizontal": 15,
+            "paddingVertical": 10,
+            "width": "100%",
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        maxLength={45}
+        onChangeText={[Function]}
+        placeholder="Password"
+        rejectResponderTermination={true}
+        secureTextEntry={true}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "fontFamily": "MontserratMedium",
+            "marginBottom": 15,
+            "paddingHorizontal": 15,
+            "paddingVertical": 10,
+            "width": "100%",
+          }
+        }
+        underlineColorAndroid="transparent"
+        value=""
+      />
+      <View
+        style={
+          Object {
+            "marginVertical": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          accessibilityRole="button"
+          accessibilityState={Object {}}
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="Login"
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              disabled={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#007AFF",
+                    "fontSize": 18,
+                    "margin": 8,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#FF988F",
+                  },
+                ]
+              }
+            >
+              Login
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "marginVertical": 10,
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#005C85",
+                "textAlign": "center",
+              }
+            }
+            testID="CreateAcc"
+          >
+            Create Account
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Given a LoginView function When we press Login Button with email and password with string values Then the render should match its snaptshot 1`] = `
+<View
+  accessibilityIgnoresInvertColors={true}
+  style={
+    Object {
+      "height": "100%",
+      "resizeMode": "contain",
+      "width": "100%",
+    }
+  }
+>
+  <Image
+    source={1}
+    style={
+      Array [
+        Object {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        Object {
+          "height": "100%",
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": "100%",
+        "justifyContent": "center",
+        "padding": 25,
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "height": "100%",
+          "justifyContent": "center",
+          "width": "80%",
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 200,
+            "width": 200,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "marginVertical": 10,
+          }
+        }
+      />
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCompleteType="email"
+        maxLength={30}
+        onChangeText={[Function]}
+        placeholder="Email"
+        rejectResponderTermination={true}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "fontFamily": "MontserratMedium",
+            "marginBottom": 15,
+            "paddingHorizontal": 15,
+            "paddingVertical": 10,
+            "width": "100%",
+          }
+        }
+        underlineColorAndroid="transparent"
+        value={
+          Object {
+            "text": "email",
+          }
+        }
+      />
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        maxLength={45}
+        onChangeText={[Function]}
+        placeholder="Password"
+        rejectResponderTermination={true}
+        secureTextEntry={true}
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 5,
+            "borderWidth": 1,
+            "fontFamily": "MontserratMedium",
+            "marginBottom": 15,
+            "paddingHorizontal": 15,
+            "paddingVertical": 10,
+            "width": "100%",
+          }
+        }
+        underlineColorAndroid="transparent"
+        value={
+          Object {
+            "text": "password",
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "marginVertical": 10,
+          }
+        }
+      />
+      <View
+        style={
+          Object {
+            "width": "100%",
+          }
+        }
+      >
+        <View
+          accessibilityRole="button"
+          accessibilityState={Object {}}
+          accessible={true}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+          testID="Login"
+        >
+          <View
+            style={
+              Array [
+                Object {},
+              ]
+            }
+          >
+            <Text
+              disabled={false}
+              style={
+                Array [
+                  Object {
+                    "color": "#007AFF",
+                    "fontSize": 18,
+                    "margin": 8,
+                    "textAlign": "center",
+                  },
+                  Object {
+                    "color": "#FF988F",
+                  },
+                ]
+              }
+            >
+              Login
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            Object {
+              "marginVertical": 10,
+            }
+          }
+        />
+        <View
+          accessible={true}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "opacity": 1,
+            }
+          }
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "color": "#005C85",
+                "textAlign": "center",
+              }
+            }
+            testID="CreateAcc"
+          >
+            Create Account
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

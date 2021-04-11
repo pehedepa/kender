@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game of Life</title>
+</head>
+<body>
+    <header>
+        <section class="header__options">
+            <div class="options__row">
+                <input type="number" placeholder="Rows" name="row__textbox" id="row__textbox" min="6" max="30" pattern="[0-9]{1,2}" required autocomplete="off">
+            </div>
+            <div class="options__column">
+                <input type="number" placeholder="Columns" name="column__textbox" id="column__textbox" min="6" max="30" pattern="[0-9]{1,2}" required autocomplete="off">
+            </div>
+            <button id="button__generate-grid">Generate Grid</button>
+        </section>
+    </header>
+    <section class = "board">
+        <div class="board__container--flex">
+            <div id = "board__table">
+                   
+            </div>
+        </div>
+    </section>
+
+<script src="gamelife.js" type="text/javascript"></script>
+</body>
+</html>

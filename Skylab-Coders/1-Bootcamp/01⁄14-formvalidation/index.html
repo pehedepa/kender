@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <title>Air Macuto</title>
+</head>
+<body>
+    <main class="container">
+        <form class="window__container">
+            <section class="personal-data__textbox">
+                <input type="text" placeholder="Enter your name..." name="name" id="text__name" pattern="[a-zA-Z]{3,10}" required autofocus autocomplete="off">
+                <input type="text" placeholder="Enter your surname..." name="surname" id="text__surname" pattern="[a-zA-Z]{3,}\s[a-zA-Z]{3,}" required autocomplete="off">
+                <input type="email" placeholder="Email required" id="text__email" required>   
+                <input type="tel" placeholder="Phone Number" name="phone-number" id="text__phone-number" pattern="[0-9]{9,12}" required autocomplete="off">
+            </section>
+            <label for="date__trip">Travel Dates</label>
+            <input type="date" name="dates" id="date__trip">
+            <section class="trip-type__option">
+                <label for="select__trip">Trip</label>
+                <select name="trip" id="select__trip">
+                    <option value="one-way">One way</option>
+                    <option value="return">Return</option>
+                </select>
+                <label for="select__passengers">Passengers</label>
+                <select name="passengers" id="select__passengers">
+                    <option value="one-passenger">1 Passenger</option>
+                    <option value="two-passenger">2 Passengers</option>
+                    <option value="three-passenger">3 Passengers</option>
+                    <option value="four-passenger">4 Passengers</option>
+                </select>
+            </section>
+            <section class="arrival-departure__option">
+                <select name="departure" id="select__departure">
+                    <option value="bcn">Barcelona</option>
+                    <option value="tnf">Tenerife</option>
+                    <option value="gir">Girona</option>
+                    <option value="dub">Dublin</option>
+                </select>
+                <select name="arrival" id="select__arrival">
+                    <option value="mall">Mallorca</option>
+                    <option value="bil">Bilbao</option>
+                    <option value="mad">Madrid</option>
+                    <option value="par">Paris</option>
+                </select>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Professional Travel</label>
+                </div>
+                <p><button type="submit">Book Flight</button></p>
+            </section>
+        </form>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.section__landing {
+    background-image: url("https://trello-attachments.s3.amazonaws.com/603b798354daf559b3f09c34/603b79a4e9f1ee7a67f583e1/b53ded6fda961cd30c7d00916527293a/landing.png") !important;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center 0px;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+}
+
+.mid-container__welcome {
+    margin-top: 300px;
+    margin-bottom: 260px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    background:lightslategray;
+}

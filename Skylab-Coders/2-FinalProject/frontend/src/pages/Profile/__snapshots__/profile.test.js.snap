@@ -1,0 +1,1195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a CreateAd function When Update Profile button is pressed Then updateUserData function should be invoked 1`] = `[MockFunction]`;
+
+exports[`Given a CreateAd function When userObject lacks location/cc/photo/name Then those useEffects should start with an empty string as value 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": "100%",
+        "justifyContent": "center",
+        "padding": 25,
+        "width": "100%",
+      },
+      Object {
+        "backgroundColor": "#f7f7f7",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#2F2C23",
+        "fontFamily": "MontserratLight",
+        "fontSize": 22,
+        "marginVertical": 10,
+      }
+    }
+  >
+    Profile Settings
+  </Text>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+  >
+    <View
+      accessible={true}
+      style={
+        Object {
+          "borderRadius": 100,
+          "elevation": 5,
+          "height": 150,
+          "margin": 5,
+          "opacity": 1,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 4,
+          "width": 150,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(255, 152, 143, 1)",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 200,
+            "elevation": 5,
+            "height": 150,
+            "padding": 2,
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 4,
+            "width": 150,
+          }
+        }
+      />
+    </View>
+  </RNGestureHandlerButton>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="words"
+    autoCompleteType="name"
+    maxLength={30}
+    onChangeText={[Function]}
+    placeholder=""
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#e0e0e0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontFamily": "MontserratMedium",
+        "marginBottom": 5,
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="words"
+    autoCompleteType="street-address"
+    maxLength={30}
+    onChangeText={[Function]}
+    placeholder="Write down your full address"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#e0e0e0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontFamily": "MontserratMedium",
+        "marginBottom": 5,
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="sentences"
+    autoCompleteType="off"
+    maxLength={25}
+    onChangeText={[Function]}
+    placeholder="Write down your location"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#e0e0e0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontFamily": "MontserratMedium",
+        "marginBottom": 5,
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value=""
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#e0e0e0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "fontFamily": "MontserratMedium",
+        "marginBottom": 5,
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoCapitalize="none"
+      autoCompleteType="cc-number"
+      keyboardType="number-pad"
+      maxLength={24}
+      onChangeText={[Function]}
+      placeholder="Insert your Credit Card details"
+      rejectResponderTermination={true}
+      secureTextEntry={true}
+      style={
+        Object {
+          "flex": 1,
+          "paddingRight": 8,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <RNGestureHandlerButton
+      collapsable={false}
+      onGestureEvent={[Function]}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      onHandlerStateChange={[Function]}
+      rippleColor={0}
+    >
+      <View
+        accessible={true}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={1}
+          style={
+            Object {
+              "maxHeight": 25,
+              "resizeMode": "contain",
+            }
+          }
+        />
+      </View>
+    </RNGestureHandlerButton>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#2F2C23",
+        "fontFamily": "MontserratMedium",
+        "fontSize": 14,
+        "marginVertical": 10,
+      }
+    }
+  >
+    PRODUCTS LISTED:
+  </Text>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "user": Object {
+            "_id": "50",
+          },
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <RNGestureHandlerButton
+            collapsable={false}
+            onGestureEvent={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onHandlerStateChange={[Function]}
+            rippleColor={0}
+          >
+            <View
+              accessible={true}
+              style={
+                Object {
+                  "opacity": 1,
+                  "paddingHorizontal": 20,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#ffffff",
+                      "borderColor": "#FF988F",
+                      "borderLeftWidth": 4,
+                      "borderRadius": 2,
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                      "padding": 15,
+                      "width": "100%",
+                    },
+                    Object {
+                      "elevation": 3,
+                      "shadowColor": "#2F2C23",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": 0,
+                      },
+                      "shadowOpacity": 0.22,
+                      "shadowRadius": 2.22,
+                    },
+                  ]
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "maxHeight": 25,
+                      "resizeMode": "contain",
+                    }
+                  }
+                />
+                <Text
+                  style={
+                    Object {
+                      "fontFamily": "MontserratLight",
+                      "paddingLeft": 10,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </RNGestureHandlerButton>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={Object {}}
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="update"
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#FF988F",
+              },
+            ]
+          }
+        >
+          Update Profile
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Given a CreateAd function When we invoke Profile function Then the render should match its snaptshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": "100%",
+        "justifyContent": "center",
+        "padding": 25,
+        "width": "100%",
+      },
+      Object {
+        "backgroundColor": "#f7f7f7",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#2F2C23",
+        "fontFamily": "MontserratLight",
+        "fontSize": 22,
+        "marginVertical": 10,
+      }
+    }
+  >
+    Profile Settings
+  </Text>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+  >
+    <View
+      accessible={true}
+      style={
+        Object {
+          "borderRadius": 100,
+          "elevation": 5,
+          "height": 150,
+          "margin": 5,
+          "opacity": 1,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 4,
+          "width": 150,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(255, 152, 143, 1)",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 200,
+            "elevation": 5,
+            "height": 150,
+            "padding": 2,
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 4,
+            "width": 150,
+          }
+        }
+      />
+    </View>
+  </RNGestureHandlerButton>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="words"
+    autoCompleteType="name"
+    maxLength={30}
+    onChangeText={[Function]}
+    placeholder="pablo"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#e0e0e0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontFamily": "MontserratMedium",
+        "marginBottom": 5,
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value="pablo"
+  />
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="words"
+    autoCompleteType="street-address"
+    maxLength={30}
+    onChangeText={[Function]}
+    placeholder="carrer"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#e0e0e0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontFamily": "MontserratMedium",
+        "marginBottom": 5,
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value="carrer"
+  />
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="sentences"
+    autoCompleteType="off"
+    maxLength={25}
+    onChangeText={[Function]}
+    placeholder="barcelona"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#e0e0e0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontFamily": "MontserratMedium",
+        "marginBottom": 5,
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value="barcelona"
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#e0e0e0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "fontFamily": "MontserratMedium",
+        "marginBottom": 5,
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoCapitalize="none"
+      autoCompleteType="cc-number"
+      keyboardType="number-pad"
+      maxLength={24}
+      onChangeText={[Function]}
+      placeholder="5555"
+      rejectResponderTermination={true}
+      secureTextEntry={true}
+      style={
+        Object {
+          "flex": 1,
+          "paddingRight": 8,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value="5555"
+    />
+    <RNGestureHandlerButton
+      collapsable={false}
+      onGestureEvent={[Function]}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      onHandlerStateChange={[Function]}
+      rippleColor={0}
+    >
+      <View
+        accessible={true}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={1}
+          style={
+            Object {
+              "maxHeight": 25,
+              "resizeMode": "contain",
+            }
+          }
+        />
+      </View>
+    </RNGestureHandlerButton>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#2F2C23",
+        "fontFamily": "MontserratMedium",
+        "fontSize": 14,
+        "marginVertical": 10,
+      }
+    }
+  >
+    PRODUCTS LISTED:
+  </Text>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "user": Object {
+            "_id": "50",
+          },
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <RNGestureHandlerButton
+            collapsable={false}
+            onGestureEvent={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onHandlerStateChange={[Function]}
+            rippleColor={0}
+          >
+            <View
+              accessible={true}
+              style={
+                Object {
+                  "opacity": 1,
+                  "paddingHorizontal": 20,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#ffffff",
+                      "borderColor": "#FF988F",
+                      "borderLeftWidth": 4,
+                      "borderRadius": 2,
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                      "padding": 15,
+                      "width": "100%",
+                    },
+                    Object {
+                      "elevation": 3,
+                      "shadowColor": "#2F2C23",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": 0,
+                      },
+                      "shadowOpacity": 0.22,
+                      "shadowRadius": 2.22,
+                    },
+                  ]
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "maxHeight": 25,
+                      "resizeMode": "contain",
+                    }
+                  }
+                />
+                <Text
+                  style={
+                    Object {
+                      "fontFamily": "MontserratLight",
+                      "paddingLeft": 10,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </RNGestureHandlerButton>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={Object {}}
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="update"
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#FF988F",
+              },
+            ]
+          }
+        >
+          Update Profile
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Given a CreateAd function When we press Update Button all textInputs with string values Then the render should match its snaptshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "height": "100%",
+        "justifyContent": "center",
+        "padding": 25,
+        "width": "100%",
+      },
+      Object {
+        "backgroundColor": "#f7f7f7",
+      },
+    ]
+  }
+>
+  <Text
+    style={
+      Object {
+        "color": "#2F2C23",
+        "fontFamily": "MontserratLight",
+        "fontSize": 22,
+        "marginVertical": 10,
+      }
+    }
+  >
+    Profile Settings
+  </Text>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+  >
+    <View
+      accessible={true}
+      style={
+        Object {
+          "borderRadius": 100,
+          "elevation": 5,
+          "height": 150,
+          "margin": 5,
+          "opacity": 1,
+          "shadowColor": "#000",
+          "shadowOffset": Object {
+            "height": 2,
+            "width": 0,
+          },
+          "shadowOpacity": 0.25,
+          "shadowRadius": 4,
+          "width": 150,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "rgba(255, 152, 143, 1)",
+            "borderColor": "#e0e0e0",
+            "borderRadius": 200,
+            "elevation": 5,
+            "height": 150,
+            "padding": 2,
+            "shadowColor": "#000",
+            "shadowOffset": Object {
+              "height": 2,
+              "width": 0,
+            },
+            "shadowOpacity": 0.25,
+            "shadowRadius": 4,
+            "width": 150,
+          }
+        }
+      />
+    </View>
+  </RNGestureHandlerButton>
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="words"
+    autoCompleteType="name"
+    maxLength={30}
+    onChangeText={[Function]}
+    placeholder="pablo"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#e0e0e0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontFamily": "MontserratMedium",
+        "marginBottom": 5,
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value={
+      Object {
+        "text": "manolo",
+      }
+    }
+  />
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="words"
+    autoCompleteType="street-address"
+    maxLength={30}
+    onChangeText={[Function]}
+    placeholder="carrer"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#e0e0e0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontFamily": "MontserratMedium",
+        "marginBottom": 5,
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value={
+      Object {
+        "text": "unaltrecarrer",
+      }
+    }
+  />
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize="sentences"
+    autoCompleteType="off"
+    maxLength={25}
+    onChangeText={[Function]}
+    placeholder="barcelona"
+    rejectResponderTermination={true}
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderColor": "#e0e0e0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "fontFamily": "MontserratMedium",
+        "marginBottom": 5,
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+        "width": "100%",
+      }
+    }
+    underlineColorAndroid="transparent"
+    value={
+      Object {
+        "text": "madrid",
+      }
+    }
+  />
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#fff",
+        "borderColor": "#e0e0e0",
+        "borderRadius": 5,
+        "borderWidth": 1,
+        "flexDirection": "row",
+        "fontFamily": "MontserratMedium",
+        "marginBottom": 5,
+        "paddingHorizontal": 15,
+        "paddingVertical": 10,
+        "width": "100%",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      autoCapitalize="none"
+      autoCompleteType="cc-number"
+      keyboardType="number-pad"
+      maxLength={24}
+      onChangeText={[Function]}
+      placeholder="5555"
+      rejectResponderTermination={true}
+      secureTextEntry={true}
+      style={
+        Object {
+          "flex": 1,
+          "paddingRight": 8,
+        }
+      }
+      underlineColorAndroid="transparent"
+      value={
+        Object {
+          "text": "55544",
+        }
+      }
+    />
+    <RNGestureHandlerButton
+      collapsable={false}
+      onGestureEvent={[Function]}
+      onGestureHandlerEvent={[Function]}
+      onGestureHandlerStateChange={[Function]}
+      onHandlerStateChange={[Function]}
+      rippleColor={0}
+    >
+      <View
+        accessible={true}
+        style={
+          Object {
+            "opacity": 1,
+          }
+        }
+      >
+        <Image
+          source={1}
+          style={
+            Object {
+              "maxHeight": 25,
+              "resizeMode": "contain",
+            }
+          }
+        />
+      </View>
+    </RNGestureHandlerButton>
+  </View>
+  <Text
+    style={
+      Object {
+        "color": "#2F2C23",
+        "fontFamily": "MontserratMedium",
+        "fontSize": 14,
+        "marginVertical": 10,
+      }
+    }
+  >
+    PRODUCTS LISTED:
+  </Text>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "user": Object {
+            "_id": "50",
+          },
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View>
+          <RNGestureHandlerButton
+            collapsable={false}
+            onGestureEvent={[Function]}
+            onGestureHandlerEvent={[Function]}
+            onGestureHandlerStateChange={[Function]}
+            onHandlerStateChange={[Function]}
+            rippleColor={0}
+          >
+            <View
+              accessible={true}
+              style={
+                Object {
+                  "opacity": 1,
+                  "paddingHorizontal": 20,
+                  "paddingVertical": 5,
+                }
+              }
+            >
+              <View
+                style={
+                  Array [
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#ffffff",
+                      "borderColor": "#FF988F",
+                      "borderLeftWidth": 4,
+                      "borderRadius": 2,
+                      "flexDirection": "row",
+                      "justifyContent": "flex-start",
+                      "padding": 15,
+                      "width": "100%",
+                    },
+                    Object {
+                      "elevation": 3,
+                      "shadowColor": "#2F2C23",
+                      "shadowOffset": Object {
+                        "height": 1,
+                        "width": 0,
+                      },
+                      "shadowOpacity": 0.22,
+                      "shadowRadius": 2.22,
+                    },
+                  ]
+                }
+              >
+                <Image
+                  source={1}
+                  style={
+                    Object {
+                      "maxHeight": 25,
+                      "resizeMode": "contain",
+                    }
+                  }
+                />
+                <Text
+                  style={
+                    Object {
+                      "fontFamily": "MontserratLight",
+                      "paddingLeft": 10,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </RNGestureHandlerButton>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+  <View
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  >
+    <View
+      accessibilityRole="button"
+      accessibilityState={Object {}}
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+      testID="update"
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+              Object {
+                "color": "#FF988F",
+              },
+            ]
+          }
+        >
+          Update Profile
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

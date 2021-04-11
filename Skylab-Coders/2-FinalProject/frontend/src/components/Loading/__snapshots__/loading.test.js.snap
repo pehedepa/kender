@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Loading function When we invoke Loading function Then the render should match its snaptshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#f7f7f7",
+      "flex": 1,
+      "flexDirection": "row",
+      "height": "100%",
+      "justifyContent": "center",
+      "position": "absolute",
+      "width": "100%",
+    }
+  }
+>
+  <ActivityIndicator
+    animating={true}
+    color="#005C85"
+    hidesWhenStopped={true}
+    size="large"
+  />
+</View>
+`;

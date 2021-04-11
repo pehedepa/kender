@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" >
+    <script src="scripts.js" type="text/javascript"></script>
+    <title>Password'o-matic</title>
+    <link rel="icon" 
+        type="image/png"
+        href="favicon.png">
+  </head>
+  <body>
+    <section class="container visible" id="intro">
+      <h1>PassWord'o'matic</h1>
+      <h5 id="enter-name" class="show">Please, write down your name</h5>
+      <h5 id="alert-name">Please, write a valid name (must have at least one letter).</h5>
+      <div class="box flex">
+        <input type="text" placeholder="Name" id="input-name"><button id="button-name">Next</button>
+      </div>
+    </section>
+    <section class="container" id="start">
+      <div class="box">
+        <h1>Welcome, <span id="user-name"></span></h1>
+        <h5>The Rules of this Game are simple.</h5>
+        <h6>1. You'll be asked one question for each letter.</h6>
+        <h6>2. You may 'pass' at any time, you'll be asked again once the full roster completes.</h6>
+        <h6>3. You start with 1000p. Scoring is 50p per word. Any mistake deducts -35p. Passing deducts -5p.</h6>
+        <h6>4. No one has ever completed it 100%. Be my guest!</h6>
+        <button id="button-start">Start</button>
+      </div>
+    </section>
+    <section class="container" id="circle">
+      <div data-letter="a" data-status="0" class="inactive">a</div>
+      <div data-letter="b" data-status="0" class="inactive">b</div>
+      <div data-letter="c" data-status="0" class="inactive">c</div>
+      <div data-letter="d" data-status="0" class="inactive">d</div>
+      <div data-letter="e" data-status="0" class="inactive">e</div>
+      <div data-letter="f" data-status="0" class="inactive">f</div>
+      <div data-letter="g" data-status="0" class="inactive">g</div>
+      <div data-letter="h" data-status="0" class="inactive">h</div>
+      <div data-letter="i" data-status="0" class="inactive">i</div>
+      <div data-letter="j" data-status="0" class="inactive">j</div>
+      <div data-letter="k" data-status="0" class="inactive">k</div>
+      <div data-letter="l" data-status="0" class="inactive">l</div>
+      <div data-letter="m" data-status="0" class="inactive">m</div>
+      <div data-letter="n" data-status="0" class="inactive">n</div>
+      <div data-letter="ñ" data-status="0" class="inactive">ñ</div>
+      <div data-letter="o" data-status="0" class="inactive">o</div>
+      <div data-letter="p" data-status="0" class="inactive">p</div>
+      <div data-letter="q" data-status="0" class="inactive">q</div>
+      <div data-letter="r" data-status="0" class="inactive">r</div>
+      <div data-letter="s" data-status="0" class="inactive">s</div>
+      <div data-letter="t" data-status="0" class="inactive">t</div>
+      <div data-letter="u" data-status="0" class="inactive">u</div>
+      <div data-letter="v" data-status="0" class="inactive">v</div>
+      <div data-letter="w" data-status="0" class="inactive">w</div>
+      <div data-letter="x" data-status="0" class="inactive">x</div>
+      <div data-letter="y" data-status="0" class="inactive">y</div>
+      <div data-letter="z" data-status="0" class="inactive">z</div>
+    </section>
+    <section class="container" id="qa">
+      <div id="question"></div>
+      <input type="text" placeholder="Write your Answer" id="input-answer"><button id="button-answer">Submit Answer</button>
+      <button id="button-password">PassWord</button>
+    </section>
+    <section class="container" id="ranking">
+      <div class="final-score">
+        <div>Stats</div>
+        <div id="username"></div>
+        <div id="score"></div>
+        <div id="matched"></div>
+        <div id="mistaken"></div>
+        <div id="passed"></div>
+      </div>
+      <div class="final-ranking">
+        <div>All-Time Ranking</div>
+        <div id="1"></div>
+        <div id="2"></div>
+        <div id="3"></div>
+        <div id="4"></div>
+        <div id="5"></div>
+        <div id="6"></div>
+        <div id="7"></div>
+        <div id="8"></div>
+        <div id="9"></div>
+        <div id="10"></div>
+      </div>
+    </section>
+  </body>
+</html>
+
+
+<!-- al hacer resize screen no se reajusta como flex(footer invisible) -->

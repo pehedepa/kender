@@ -1,0 +1,47 @@
+.tradeskills__container {
+    width: inherit;
+    height: inherit;
+    background: #F8F9FA;
+}
+
+.knowledge-top__container {
+    display: flex;
+    height: inherit;
+    width: 100%;
+}
+
+.knowledge-top__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+
+.knowledge-top__title {
+    font-weight: 600;
+    font-size: 60px;
+    opacity: 0.5;
+    margin-top: -75px;
+    margin-bottom: 0px;
+    opacity: 0.2;
+}
+
+.knowledge-top__subtitle {
+    margin: -45px;
+}
+
+.knowledge__list {
+    border: 1px solid black;
+    max-width: fit-content;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+button {
+    border-radius: 10px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Detail</title>
+    <link rel="stylesheet" href="../../styles.css">
+    <link rel="stylesheet" href="./hero-detail.css">
+</head>
+<body>
+    <h1>Tour of Heroes</h1>
+    <nav>
+        <a href="../dashboard/dashboard.html">Dashboard</a>
+        <a href="../heroes/heroes.html">Heroes</a>
+    </nav>
+
+    <div class="container__left">
+        <h2 id="hero__title-name"></h2>
+        <div id="hero__id"><span>id: </span></div>
+        <div>
+            <label>name:
+                <input type="text" id="hero__name" placeholder="name" />
+            </label>
+        </div>
+
+        <button>go back</button>
+        <button>save</button>
+    </div>
+
+
+
+    <script src="../../hero.js"></script>
+    <script src="./hero-detail.js"></script>
+    <script>
+        mainContainer();
+        drawTitle(hero);
+        leftSideElements(hero, 5);
+        setStatsHero(hero.powerstats, 'stats');
+        paintRightSideTop();
+    </script>
+</body>
+</html>

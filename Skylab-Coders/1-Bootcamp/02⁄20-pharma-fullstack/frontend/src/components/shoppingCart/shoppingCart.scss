@@ -1,0 +1,11 @@
+.purchase__container {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start
+}
+
+.price-lane__container {
+    display: flex;
+    justify-content: space-around;
+}

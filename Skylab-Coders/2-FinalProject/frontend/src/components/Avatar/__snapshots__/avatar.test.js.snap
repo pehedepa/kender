@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Avatar function When we invoke Avatar function Then the render should match its snaptshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "rgba(255, 152, 143, 1)",
+      "borderColor": "#e0e0e0",
+      "borderRadius": 200,
+      "elevation": 5,
+      "height": 150,
+      "padding": 2,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.25,
+      "shadowRadius": 4,
+      "width": 150,
+    }
+  }
+/>
+`;
+
+exports[`Given a Avatar function When we invoke Avatar function with userObject.photo Then the render should match its snaptshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "rgba(255, 152, 143, 1)",
+      "borderColor": "#e0e0e0",
+      "borderRadius": 200,
+      "elevation": 5,
+      "height": 150,
+      "padding": 2,
+      "shadowColor": "#000",
+      "shadowOffset": Object {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.25,
+      "shadowRadius": 4,
+      "width": 150,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "data:image/jpg;base64,string",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 200,
+        "height": "100%",
+        "resizeMode": "center",
+        "width": "100%",
+      }
+    }
+  />
+</View>
+`;

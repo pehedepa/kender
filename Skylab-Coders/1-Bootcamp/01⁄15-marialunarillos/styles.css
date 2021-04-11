@@ -1,0 +1,340 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+
+nav {
+  position: sticky;
+  background-color: #f8f8f8;
+  width: 100vw;
+  height: 50px;
+}
+
+.nav__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.nav__container img {
+  max-width: 80%;
+}
+
+.nav__container div {
+  width: 50px;
+  height: 50px;
+}
+
+.nav__burger,
+.nav__login,
+.nav__cart,
+.nav__search {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav__cart-container {
+  display: flex;
+  width: 100px !important;
+  flex-direction: row;
+}
+
+.nav__login {
+  padding: 0 50px;
+}
+.login__icon {
+  background: url(imgs/sprite.svg) 0px 0px no-repeat;
+  width: 27px;
+  height: 27px; 
+  margin: 10px;
+}
+
+.login__icon:hover {
+  background: url(imgs/sprite.svg) -36px 0px no-repeat;
+  width: 27px;
+  height: 27px; 
+  margin: 10px;
+}
+.nav__search {
+  background: #BBB8B6 url(imgs/sprite.svg) -300px 10px no-repeat;
+  width: 50px;
+  height: 50px;
+}
+.nav__cart {
+  background: url(imgs/sprite.svg) -65px 10px no-repeat;
+  width: 50px;
+  height: 50px; 
+}
+.nav__cart:hover {
+  background: url(imgs/sprite.svg) -105px 10px no-repeat;
+  width: 50px;
+  height: 50px; 
+  background-color: #ff5959;
+}
+
+.nav__items {
+  font-family: "Myriad Pro", "Myriad Web", "Tahoma", "Helvetica", "Arial",
+    sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff9ff;
+  background-color: #ff5959;
+  width: 50px;
+  height: 50px;
+}
+
+.display--only-desktop {
+  display: none;
+}
+
+main {
+  background-color: cornflowerblue;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__logo {
+  height: 200px;
+}
+
+.main__fiestas {
+  width: 485px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font: "Source Sans Pro";
+  background-color: #f8f8f8;
+  position: relative;
+}
+
+.main__icon {
+  position: absolute;
+  top: -66px;
+  left: 189px;
+  width: 106px;
+}
+
+.main__fiestas-title {
+  text-align: center;
+  line-height: 22px;
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  color: #2e2925;
+  margin: 100px 0 60px 0;
+  width: 200px;
+  padding: 25px;
+  border-top: 2px solid #2e2925;
+  border-bottom: 2px solid #2e2925;
+}
+
+.main__img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main__img-item {
+  position: relative;
+  border: 3px solid transparent;
+}
+
+.main__img-item img {
+  width: 325px;
+  height: 136px;
+  object-fit: cover;
+}
+
+.img-info {
+  position: absolute;
+  width: 150px;
+  padding: 20px;
+  color: #67635f;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 18px;
+  background-color: rgba(255, 255, 255, 0.705);
+  left: 0;
+  bottom: 0;
+}
+
+.main__btn {
+  background-color: #ff5959;
+  margin: 50px;
+  padding: 20px 30px;
+  border: none;
+  font: 16px "Source Sans Pro", sans-serif;
+}
+
+a {
+  color: white;
+}
+
+@media screen and (min-width: 599px) {
+  body {
+    background-color: #a85a5a;
+  }
+
+  .display--only-desktop {
+    display: block;
+  }
+
+  .display--only-mobile {
+    display: none;
+  }
+
+  .nav__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1080px;
+    max-height: 50px;
+
+    margin: auto;
+  }
+  .nav__external-links {
+    display: flex;
+    justify-self: flex-start;
+    flex-direction: row;
+  }
+
+  .nav__external-links li {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    width: 80px;
+    height: 140px;
+    margin: 0px 4px 0px 0px;
+    background-color: yellow;
+  }
+
+  .nav__external-links li:nth-child(1) {
+    background-color: #ff5959;
+  }
+  .nav__external-links li:nth-child(2) {
+    background-color: #6199af;
+    position: relative;
+    top: -70px;
+  }
+  .nav__external-links li:nth-child(3) {
+    background-color: #f6b436;
+    position: relative;
+    top: -70px;
+  }
+
+  .nav__external-links li:nth-child(2):hover,
+  .nav__external-links li:nth-child(3):hover {
+    top: 0;
+  }
+  .login__options {
+    width: 150px;
+    font-size: 13px;
+  }
+
+  .nav__media-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px 0 0;
+  }
+  .nav__media-icons li:nth-child(1) {
+    background: url(imgs/sprite.svg) -4px -540px no-repeat;
+    width: 25px;
+    height: 20px; 
+    margin: 10px;  
+  }
+  .nav__media-icons li:nth-child(1):hover {
+    background: url(imgs/sprite.svg) -4px -500px no-repeat;
+    width: 25px;
+    height: 20px; 
+    margin: 10px;  
+  }
+  .nav__media-icons li:nth-child(2) {
+    background: url(imgs/sprite.svg) -40px -540px no-repeat;
+    width: 25px;
+    height: 20px; 
+    margin: 10px;  
+  }
+  .nav__media-icons li:nth-child(2):hover {
+    background: url(imgs/sprite.svg) -40px -500px no-repeat;
+    width: 25px;
+    height: 20px; 
+    margin: 10px;  
+  }
+  .nav__media-icons li:nth-child(3) {
+    background: url(imgs/sprite.svg) -75px -540px no-repeat;
+    width: 25px;
+    height: 20px; 
+    margin: 10px;  
+  }
+  .nav__media-icons li:nth-child(3):hover {
+    background: url(imgs/sprite.svg) -75px -500px no-repeat;
+    width: 25px;
+    height: 20px; 
+    margin: 10px;  
+  }
+  .nav__media-icons li:nth-child(4) {
+    background: url(imgs/sprite.svg) -110px -540px no-repeat;
+    width: 25px;
+    height: 20px; 
+    margin: 10px;  
+  }
+  .nav__media-icons li:nth-child(4):hover {
+    background: url(imgs/sprite.svg) -110px -500px no-repeat;
+    width: 25px;
+    height: 20px; 
+    margin: 10px;  
+  }
+  .nav__media-icons li:nth-child(5) {
+    background: url(imgs/sprite.svg) -180px -540px no-repeat;
+    width: 25px;
+    height: 20px; 
+    margin: 10px;  
+  }
+  .nav__media-icons li:nth-child(5):hover {
+    background: url(imgs/sprite.svg) -180px -500px no-repeat;
+    width: 25px;
+    height: 20px; 
+    margin: 10px;  
+  }
+
+  .nav__login {
+    padding: 0 0 0 150px;
+  }
+  .nav__login > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav__login p:hover {
+    color: #ff5959;
+  }
+
+  .main__fiestas {
+    flex-wrap: wrap;
+  }
+
+  .main__img-item img {
+    width: 715px;
+    height: 136px;
+    object-fit: cover;
+  }
+}

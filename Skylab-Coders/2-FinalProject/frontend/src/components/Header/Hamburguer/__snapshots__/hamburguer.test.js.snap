@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a HamburguerModal function When we invoke HamburguerModal function Then the render should match its snaptshot 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "flex-end",
+      "flex": 0,
+      "justifyContent": "flex-end",
+    }
+  }
+>
+  <Modal
+    animationType="none"
+    deviceHeight={null}
+    deviceWidth={null}
+    hardwareAccelerated={false}
+    hideModalContentWhileAnimating={false}
+    onBackdropPress={[Function]}
+    onModalHide={[Function]}
+    onModalWillHide={[Function]}
+    onModalWillShow={[Function]}
+    onRequestClose={[Function]}
+    scrollHorizontal={false}
+    scrollOffset={0}
+    scrollOffsetMax={0}
+    scrollTo={null}
+    supportedOrientations={
+      Array [
+        "portrait",
+        "landscape",
+      ]
+    }
+    swipeThreshold={100}
+    testID="Modal"
+    transparent={true}
+    visible={true}
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      forwardedRef={[Function]}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "backgroundColor": "black",
+          "bottom": 0,
+          "height": 1334,
+          "left": 0,
+          "opacity": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+          "width": 750,
+        }
+      }
+    />
+    <View
+      deviceHeight={null}
+      deviceWidth={null}
+      forwardedRef={[Function]}
+      hideModalContentWhileAnimating={false}
+      onBackdropPress={[Function]}
+      onModalHide={[Function]}
+      onModalWillHide={[Function]}
+      onModalWillShow={[Function]}
+      pointerEvents="box-none"
+      scrollHorizontal={false}
+      scrollOffset={0}
+      scrollOffsetMax={0}
+      scrollTo={null}
+      style={
+        Object {
+          "flex": 1,
+          "justifyContent": "center",
+          "margin": 37.5,
+          "transform": Array [
+            Object {
+              "translateY": -1334,
+            },
+          ],
+        }
+      }
+      supportedOrientations={
+        Array [
+          "portrait",
+          "landscape",
+        ]
+      }
+      swipeThreshold={100}
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "flex": 0,
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "rgba(255, 152, 143, 1)",
+              "elevation": 5,
+              "height": "80%",
+              "padding": 35,
+              "right": -18,
+              "shadowColor": "#000",
+              "shadowOffset": Object {
+                "height": 2,
+                "width": 0,
+              },
+              "shadowRadius": 4,
+              "top": -120,
+              "width": "120%",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "rgba(255, 152, 143, 1)",
+                "borderColor": "#e0e0e0",
+                "borderRadius": 200,
+                "elevation": 5,
+                "height": 150,
+                "padding": 2,
+                "shadowColor": "#000",
+                "shadowOffset": Object {
+                  "height": 2,
+                  "width": 0,
+                },
+                "shadowOpacity": 0.25,
+                "shadowRadius": 4,
+                "width": 150,
+              }
+            }
+          />
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="Profile"
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderBottomWidth": 1,
+                  "fontFamily": "MontserratMedium",
+                  "fontSize": 18,
+                  "height": 40,
+                  "marginTop": 25,
+                  "paddingBottom": 10,
+                  "textAlign": "center",
+                  "width": 180,
+                }
+              }
+            >
+              Profile
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="CreateAd"
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderBottomWidth": 1,
+                  "fontFamily": "MontserratMedium",
+                  "fontSize": 18,
+                  "height": 40,
+                  "marginTop": 25,
+                  "paddingBottom": 10,
+                  "textAlign": "center",
+                  "width": 180,
+                }
+              }
+            >
+              Publish Product
+            </Text>
+          </View>
+          <View
+            accessible={true}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              Object {
+                "opacity": 1,
+              }
+            }
+            testID="Logout"
+          >
+            <Text
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "borderBottomWidth": 1,
+                  "fontFamily": "MontserratMedium",
+                  "fontSize": 18,
+                  "height": 40,
+                  "marginTop": 25,
+                  "paddingBottom": 10,
+                  "textAlign": "center",
+                  "width": 180,
+                }
+              }
+            >
+              LOGOUT
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+  </Modal>
+</View>
+`;

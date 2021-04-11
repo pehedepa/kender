@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Dashboard function When we invoke Dashboard function Then the render should match its snaptshot 1`] = `
+<HeaderMocked
+  navigation={
+    Object {
+      "navigate": [MockFunction],
+    }
+  }
+/>
+`;

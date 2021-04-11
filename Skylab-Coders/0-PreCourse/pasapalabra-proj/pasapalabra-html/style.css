@@ -1,0 +1,79 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    background-color: lightgrey;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    
+}
+.visible {
+    display: flex;
+}
+.box{
+    border: 1px solid darkgrey;
+    background: darkgray;
+    padding: 20px;
+    border-radius: 4px;
+    max-width: 50%;
+    width: min-content;
+}
+.flex{
+    display: flex !important;
+}
+#intro input[type='text']{
+    line-height: 30px;
+    font-size: 20px;
+    padding: 3px 10px;
+    margin-right: 20px;
+    border: none;
+}
+#intro button, #start button, #circle button #qa button {
+    line-height: 30px;
+    font-size: 20px;
+    padding: 3px 10px;
+    border: none;
+}
+#alert-name{
+    display: none;
+    color: red;
+}
+#enter-name{
+    display: none;
+}
+.show {
+    display: block !important;
+}
+#circle {
+    flex-direction: row;
+}
+
+
+[data-letter]{
+    font-size: 20px;
+    line-height: 20px;
+    border-radius: 100%;
+    padding: 10px;
+    text-transform: uppercase;
+    min-width: 20px;
+    text-align: center;
+}
+[data-status="0"]{
+    background-color: blue;
+}
+[data-status="1"]{
+    background-color: green;
+}
+[data-status="2"]{
+    background-color: red;
+}
+[data-letter].active{
+    border: 4px solid black;
+}

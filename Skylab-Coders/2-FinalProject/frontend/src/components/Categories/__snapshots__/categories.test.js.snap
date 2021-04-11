@@ -1,0 +1,219 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Given a Categories function When we invoke Categories function Then the render should match its snaptshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ffffff",
+      "borderBottomColor": "#e0e0e0",
+      "borderBottomWidth": 1,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "paddingHorizontal": 25,
+      "paddingVertical": 15,
+      "width": "100%",
+    }
+  }
+>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+    testID="Toys"
+  >
+    <View
+      accessible={true}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 45,
+            "resizeMode": "contain",
+            "width": 45,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratLight",
+            "paddingTop": 5,
+            "textAlign": "center",
+          }
+        }
+      >
+        Toys
+      </Text>
+    </View>
+  </RNGestureHandlerButton>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+    testID="Clothes"
+  >
+    <View
+      accessible={true}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 45,
+            "resizeMode": "contain",
+            "width": 45,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratLight",
+            "paddingTop": 5,
+            "textAlign": "center",
+          }
+        }
+      >
+        Clothes
+      </Text>
+    </View>
+  </RNGestureHandlerButton>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+    testID="Books"
+  >
+    <View
+      accessible={true}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 45,
+            "resizeMode": "contain",
+            "width": 45,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratLight",
+            "paddingTop": 5,
+            "textAlign": "center",
+          }
+        }
+      >
+        Books
+      </Text>
+    </View>
+  </RNGestureHandlerButton>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+    testID="Other"
+  >
+    <View
+      accessible={true}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 45,
+            "resizeMode": "contain",
+            "width": 45,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratLight",
+            "paddingTop": 5,
+            "textAlign": "center",
+          }
+        }
+      >
+        Other
+      </Text>
+    </View>
+  </RNGestureHandlerButton>
+  <RNGestureHandlerButton
+    collapsable={false}
+    onGestureEvent={[Function]}
+    onGestureHandlerEvent={[Function]}
+    onGestureHandlerStateChange={[Function]}
+    onHandlerStateChange={[Function]}
+    rippleColor={0}
+    testID="All"
+  >
+    <View
+      accessible={true}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <Image
+        source={1}
+        style={
+          Object {
+            "height": 45,
+            "resizeMode": "contain",
+            "width": 45,
+          }
+        }
+      />
+      <Text
+        style={
+          Object {
+            "fontFamily": "MontserratLight",
+            "paddingTop": 5,
+            "textAlign": "center",
+          }
+        }
+      >
+        See All
+      </Text>
+    </View>
+  </RNGestureHandlerButton>
+</View>
+`;

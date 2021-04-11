@@ -1,0 +1,20 @@
+.list__items {
+    display:flex;
+    flex-direction: column;
+}
+
+.product__container {
+    display:flex;
+    flex-direction: row;
+}
+
+.price-cart__container {
+    display:flex;
+    flex-direction: row;
+}
+
+.cart__product {
+    max-width: 40px;
+    max-height: 40px;
+    filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+}
